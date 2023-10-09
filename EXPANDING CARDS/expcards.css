@@ -1,0 +1,42 @@
+.body{
+    height: 100vh;
+}
+.row{
+    width: 100%;
+}
+.container1{
+    width: 60vw;
+    display: flex;
+}
+.panel{
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    border-radius: 70px;
+    height: 40rem;
+    width: 10px;
+    background-position: center;
+    cursor: pointer;
+    position: relative;
+    margin: 20px;
+    flex: 1;
+    transition: flex 0.7s ease-in;
+    -webkit-transition: all 700ms ease-in;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.panel h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    bottom: 40px;
+    margin-left: 25px;
+    position: absolute;
+    color: white;
+    opacity: 0;
+}
+.panel.active{
+    flex: 8;
+}
+.panel.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
