@@ -1,0 +1,28 @@
+.row{
+    width: 100%;
+}
+.container1{
+    width: 60vw;
+    display: flex;
+}
+.step{
+    margin: 40px;
+    margin-top: 400px; 
+    border-color: rgb(107, 91, 91);
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 5px;
+}
+.step h4{
+    color: rgb(107, 91, 91);
+    margin: 15px;   
+}
+.step.active{
+    border-color: rgb(223, 75, 75);
+}
+.step.active h4{
+    color:  rgb(223, 75, 75);
+}
+.btn{
+    width: 45%;
+}
